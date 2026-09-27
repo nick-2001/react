@@ -6,6 +6,8 @@ The recommended learning path is:
 
 > HTML → CSS → JavaScript → React → Projects
 
+Real projects live in `00-projects`. The numbered folders are lessons.
+
 Start with the browser fundamentals before moving to React. React concepts such as components, JSX, events, state, and list rendering depend on a solid understanding of JavaScript and the web platform.
 
 ## Directory Structure
@@ -13,14 +15,16 @@ Start with the browser fundamentals before moving to React. React concepts such 
 ```text
 react/
 ├── README.md
-├── 01-html/
+├── 00-projects/
+├── 01-basic/
+├── 02-html/
 │   ├── 01-document-structure/
 │   ├── 02-text-and-links/
 │   ├── 03-images-and-media/
 │   ├── 04-tables/
 │   ├── 05-forms/
 │   └── 06-semantics/
-├── 02-css/
+├── 03-css/
 │   ├── 01-selectors-and-cascade/
 │   ├── 02-box-model/
 │   ├── 03-typography/
@@ -29,7 +33,7 @@ react/
 │   ├── 06-grid/
 │   ├── 07-responsive/
 │   └── 08-transitions-animation/
-├── 03-javascript/
+├── 04-javascript/
 │   ├── 01-types-and-variables/
 │   ├── 02-control-flow/
 │   ├── 03-functions-and-scope/
@@ -40,7 +44,7 @@ react/
 │   ├── 08-fetch-and-storage/
 │   ├── 09-modules/
 │   └── 10-prototypes-and-classes/
-├── 04-react/
+├── 05-react/
 │   ├── 01-setup-and-jsx/
 │   ├── 02-components-and-props/
 │   ├── 03-rendering-data/
@@ -50,7 +54,7 @@ react/
 │   ├── 07-context-and-reducer/
 │   ├── 08-routing/
 │   └── 09-project-structure/
-├── 05-projects/
+├── 06-projects/
 │   ├── 01-personal-page/
 │   ├── 02-responsive-landing-page/
 │   ├── 03-form-validator/
